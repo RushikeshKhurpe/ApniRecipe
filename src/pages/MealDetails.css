@@ -63,10 +63,18 @@
 
 .btn {
     margin: 1%;
+    padding: 10px;
 }
 
 .btn:hover {
     opacity: 70%;
+}
+
+.btn-light{
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
 }
 
 @media screen and (width <= 992px) {

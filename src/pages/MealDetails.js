@@ -306,6 +306,7 @@ const MealDetails = () => {
                           <li key={index} style={{marginBottom:"5px"}}>
                             <input
                               type="checkbox"
+                              className="form-check-input"
                               defaultChecked={false}
                               value={ingredient}
                               name='ingredient'
@@ -319,9 +320,9 @@ const MealDetails = () => {
                     })}
 
                   </ol>
-                  <input type="button" onClick={selects} value="Select All" />
+                  <input type="button" className="btn-light" onClick={selects} value="Select All" />
                   {' '}
-                  <input type="button" onClick={deSelect} value="Deselect All" />
+                  <input type="button" className="btn-light" onClick={deSelect} value="Deselect All" />
 
 
                 </div>
@@ -340,7 +341,7 @@ const MealDetails = () => {
                     disabled={savedMealIds?.some(
                       (savedMealId) => savedMealId === meal.idMeal
                     )}
-                    className="save-btn btn"
+                    className="save-btn btn-success btn"
                     style={{ fontWeight: "600" }}
                     onClick={() => handleSaveMeal(meal.idMeal)}
                   >
@@ -352,7 +353,7 @@ const MealDetails = () => {
                   </button>
                 )}
                 <button
-                  className="add-btn btn"
+                  className="add-btn btn-success btn"
                   onClick={addToCart}
                   style={{ fontWeight: "600" }}
                 >

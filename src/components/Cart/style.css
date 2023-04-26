@@ -2,14 +2,14 @@
   position: fixed;
   top: 13%;
   right: 0;
-  min-width: 20%;
-  max-width: 30%;
+  min-width: 25%;
+  max-width: 40%;
   max-height: 60%;
-  background-color: #dde5b6;
+  background-color: #e9ecdd;
   overflow: auto;
   padding: .5rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
-  border-bottom-left-radius: .5rem;
+  border-radius: .7rem;
 }
 
 .cart h2 {
@@ -21,14 +21,12 @@
 
 .cart .close {
   position: absolute;
+  padding: 5px;
   top: .5rem;
   right: .5rem;
-  color: red !important;
+  color: red;
   cursor: pointer;
-  color: var(--tertiary);
-  border: 1px solid black;
   border-radius: 6px;
-  background-color: rgb(220, 220, 220);
 }
 
 .cart .close:hover {
