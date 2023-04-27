@@ -3,6 +3,12 @@
 
 Project bootstrapped with [Create React App]
 
+## Installation
+To run the app locally, clone the repository and navigate to the root directory. Install dependencies using npm install.\
+You will also need to create a .env.themealdb file outside the root directory and set the following environment variables:\
+REACT_APP_THE_MEAL_DB_API_KEY\
+-API call from TheMealDB<br/>
+
 ## Available Scripts
 In the project directory, you can run:
 ### `npm start`
@@ -23,12 +29,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-####for more info visit (https://create-react-app.dev/docs/getting-started)
+for more info visit (https://create-react-app.dev/docs/getting-started)
 
-## Installation
-To run the app locally, clone the repository and navigate to the root directory. Install dependencies using npm install.\
-You will also need to create a .env.themealdb file outside the root directory and set the following environment variables:\
-REACT_APP_THE_MEAL_DB_API_KEY\
--API call from TheMealDB<br/>
-
-### Backend repo link : (https://github.com/RushikeshKhurpe/ApniRecipeBackend)
+###Backend repo link : (https://github.com/RushikeshKhurpe/ApniRecipeBackend)
