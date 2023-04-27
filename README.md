@@ -7,7 +7,7 @@ Project bootstrapped with [Create React App]
 To run the app locally, clone the repository and navigate to the root directory. Install dependencies using npm install.\
 You will also need to create a .env.themealdb file outside the root directory and set the following environment variables:\
 REACT_APP_THE_MEAL_DB_API_KEY\
--API call from TheMealDB<br/>
+-API call from TheMealDB[https://www.themealdb.com/api.php]<br/>
 
 ## Available Scripts
 In the project directory, you can run:
